@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.main {
+  display: flex;
+  position: relative;
+}
+
+.left {
+  height: 100vh;
+  width: 35vw;
+  background-image: url("leftBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.front {
+  position: absolute;
+  background-image: url("card.png");
+  height: 238px;
+  width: 447px;
+  border-radius: 10px;
+  top: -90px;
+  left: -700px;
+}
+
+.circles {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.circle1 {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 34px;
+  margin-left: 30px;
+}
+
+.circle2 {
+  height: 24px;
+  width: 24px;
+  border: 2px solid white;
+  border-radius: 18px;
+  margin-left: 15px;
+}
+
+.card-num {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.holderName {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.userName {
+  margin-left: 24px;
+}
+
+.expDate {
+  margin-right: 19px;
+}
+
+.back {
+  position: absolute;
+  height: 238px;
+  width: 447px;
+  border-radius: 10px;
+  background-image: url("back.png");
+  left: -600px;
+  top: 180px;
+}
+
+.cvcIp {
+  color: #fff;
+  position: relative;
+  bottom: -111px;
+  left: 355px;
+}
+
+.right {
+  height: 100vh;
+  width: 65vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+form {
+  width: 372px;
+  position: absolute;
+  right: 150px;
+}
+
+.holder-name {
+  margin-bottom: 30px;
+}
+
+.name input {
+  width: 370px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 2px solid rgba(177, 177, 177, 0.603);
+}
+
+.card-number {
+  margin-bottom: 30px;
+}
+
+.number input {
+  width: 370px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 2px solid rgba(177, 177, 177, 0.603);
+}
+
+.exp-cvc {
+  margin-bottom: 45px;
+  display: flex;
+}
+
+.exp {
+  width: 62%;
+}
+
+.input-sec {
+  display: flex;
+}
+
+.month input {
+  width: 80%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 2px solid rgba(177, 177, 177, 0.603);
+}
+
+.year {
+  margin-left: -10px;
+}
+
+.year input {
+  width: 80%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 2px solid rgba(177, 177, 177, 0.603);
+}
+
+.cvc {
+  width: 38%;
+}
+
+.cvc-no input {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 2px solid rgba(177, 177, 177, 0.603);
+}
+
+.btn {
+  padding: 15px 149px;
+  border-radius: 8px;
+  font-size: 20px;
+  background-color: rgba(34, 9, 48, 1);
+  color: #fff;
+  border: none;
+}
+
+label {
+  color: red;
+  font-size: 14px;
+}
